@@ -1,14 +1,16 @@
 # Self-Attention Between Datapoints: Going Beyond Individual Input-Output Pairs in Deep Learning
 
   **[Overview](#overview)**
-| **[Installation](#installation)**
 | **[Abstract](#abstract)**
+| **[Installation](#installation)**
 | **[Examples](#examples)**
+| **[Citation](#citation)**
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![arXiv](https://img.shields.io/badge/arXiv-2106.02584-b31b1b.svg)](https://arxiv.org/abs/2106.02584)
 [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![Pytorch](https://img.shields.io/badge/Pytorch-1.7-red.svg)](https://shields.io/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
 
 ## Overview
@@ -67,3 +69,18 @@ You can find all possible config arguments and descriptions in `NPT/configs.py` 
 In `scripts/` we provide a list with the runs and correct hyperparameter configurations presented in the paper.
 
 We hope you enjoy using the code and please feel free to reach out with any questions 😊
+
+
+## Citation
+
+If you find this code helpful for your work, please cite our paper
+[Paper](https://arxiv.org/abs/2106.02584) as
+
+```bibtex
+@article{kossen2021self,
+  title={Self-Attention Between Datapoints: Going Beyond Individual Input-Output Pairs in Deep Learning},
+  author={Kossen, Jannik and Band, Neil and Gomez, Aidan N. and Lyle, Clare and Rainforth, Tom and Gal, Yarin},
+  journal={arXiv:2106.02584},
+  year={2021}
+}
+```
