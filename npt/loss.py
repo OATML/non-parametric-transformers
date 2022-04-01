@@ -2,7 +2,7 @@ from collections import defaultdict
 
 import torch
 import torch.nn as nn
-from pytorch_lightning.metrics.functional import auroc as lightning_auroc
+from torchmetrics.functional import auroc as lightning_auroc
 
 from npt.utils.encode_utils import torch_cast_to_dtype
 
