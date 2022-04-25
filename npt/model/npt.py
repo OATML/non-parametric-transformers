@@ -155,6 +155,9 @@ class NPTModel(nn.Module):
         else:
             self.embedding_layer_norm = None
 
+        if True:
+            a = 1
+
         # *** Input In/Out Embeddings ***
         # Don't use for Image Patching - those are handled by the respective
         # init_image_patching
