@@ -483,7 +483,7 @@ def build_parser():
     # #### Normalization ######################################################
 
     parser.add_argument(
-        '--model_embedding_layer_norm', default=True, type='bool',
+        '--model_embedding_layer_norm', default=False, type='bool',
         help='(Disable) use of layer normalization after in-/out-embedding.')
     parser.add_argument(
         '--model_att_block_layer_norm', default=True, type='bool',
